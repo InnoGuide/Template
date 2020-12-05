@@ -1,0 +1,36 @@
+html{
+   /* scroll-behavior: smooth;
+    overflow-y: hidden*/
+}
+
+#navbar{
+  padding-right: 80px;
+  
+}
+#sidebar{
+    top:66px;
+    width: 200px;
+    border-bottom: 1px solid black;
+    height: calc(100vh - 66px);
+    z-index: 0;
+}
+#sidebar a{
+    width: 110px;
+}
+#content{
+    margin: 66px 0 0 200px;
+}
+.center {
+    
+    width: calc(100vw - 200px);
+    height: calc(100vh - 67px);
+    box-sizing: border-box;
+   
+  }
+  .pt-66 {
+      padding-top: 66px;
+  }
+  ul li:hover{
+      background:  #007bff
+  }
+
